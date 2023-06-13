@@ -1,0 +1,19 @@
+use dot instead of numbers on the dice
+Track the number of rolls to win the game
+Track the time it took to winSave your best time in local storage
+
+Create an app called Quizzical
+
+Quiz api url
+https://opentdb.com/api_config.php
+
+To continue learning
+React router
+Css in Jss / styles component / NextJs / Gatsby
+Performance and optimization
+More hooks
+
+Learn class componentin react
+
+@bobziroll
+Tutor: Bob Ziroll

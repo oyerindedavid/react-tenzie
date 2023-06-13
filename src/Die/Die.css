@@ -1,0 +1,107 @@
+.box{
+    padding: 10px;
+    display: flex;
+    width: 30px;
+    font-weight: bold;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0px 1px 4px 0px #888888;;
+  }
+
+  .circle6{
+    width: var(--dont-container-width);
+    height: var(--dont-container-height);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 15px;
+    grid-column-gap: 9px;
+  }
+
+  .circle4{
+    width: var(--dont-container-width);
+    height: var(--dont-container-height);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 15px;
+  }
+
+  .circle1{
+    width: var(--dont-container-width);
+    height: var(--dont-container-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle2{
+    width: 40px;
+    height: var(--dont-container-height);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .circle2 > .dot1{
+    display: flex;
+    align-self: flex-start;
+
+  }
+
+  .circle2 > .dot2{
+    display: flex;
+    align-self: flex-end; 
+  }
+
+  .circle3{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .circle3 > .dot1{
+    display: flex;
+    align-self: flex-start;
+  }
+
+  .circle3 > .dot2{
+    display: flex;
+    align-self: center;
+  }
+
+  .circle3 > .dot3{
+    display: flex;
+    align-self: flex-end;
+    
+  }
+
+  .circle5{
+    width: 40px;
+    height: var(--dont-container-height);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .circle5 > .top5dot{
+    display: flex;
+    justify-content: space-between;
+  }
+  .circle5 > .dot3{
+    display: flex;
+    align-self: center;
+    
+  }
+  .circle5 > .bottom5dot{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .circle-dot{
+    height: 7px;
+    border-radius: 180px;
+    width: 7px;
+    background-color: black;
+  }
